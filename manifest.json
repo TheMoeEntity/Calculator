@@ -1,0 +1,21 @@
+{
+	"name": "ZZCalculator App",
+	"short_name": "ZZCalculator",
+	"start_URL": "/",
+	"background_color": "#956cf5",
+	"theme_color": "#0F0E3F",
+	"display": "standalone",
+	"orientation": "portrait",
+	"icons" : [
+		{
+			"src":"zzlogo192.png",
+			"sizes":"192x192",
+			"type": "image/png"
+		},
+		{
+			"src":"zzlogo512.png",
+			"sizes":"512x512",
+			"type": "image/png"
+		}
+	]
+}

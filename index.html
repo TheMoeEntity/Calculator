@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator HomePage</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/calculatorDesign.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+	<meta name="theme-color" content="#0F0E3F">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Orbitron">
+	<script src="https://kit.fontawesome.com/4ef8c63dd7.js" crossorigin="anonymous"></script>
+	<link rel="apple-touch-icon" href="zzlogo192.png">
+	<link rel="manifest" href="./manifest.json">
+	<script>
+	    if ('serviceWorker' in navigator) {
+	        window.addEventListener('load', () => {
+	            navigator.serviceWorker.register('./sw.js');
+	        })
+	    }
+	</script> 
+</head>
+<body>
+	<div class="container" id="mainContainer">
+		<div class="calcContainer">
+			<div class="calcLayout">
+
+
+				<div class="contentz">
+					<div class="notch">
+
+					</div>
+					<div id="calcDisplay" >
+						<div id="navigator">
+							<p id="time"></p>
+							<ul id="battery">
+								<li><i class="fa bar">100% &#xf240;</i></li>
+								<li><i  class="material-icons bar" style="font-size: 15px; margin-right: 15px;">&#xe63e;</i></li>
+
+							</ul>
+
+
+						</div>
+						<div id="demo"></div>
+						<div id="demo2"></div>
+
+					</div>
+					<div id="calcButtonsContainer">
+						<div id="buttonsdiv">
+							<button class="b lightgray" id="delete"><span>&#x232b;</span></button>
+							<button class="b lightgray " id="plusminus">+/-</button>
+							<button class="b lightgray gold" value="%">%</button>
+							<button class="b gold" value="/">/</button>
+							<button class="b" value="7">7</button>
+							<button class="b" value="8">8</button>
+							<button class="b" value="9">9</button>
+							<button class="b gold" value="*">x</button>
+							<button class="b" value="4">4</button>
+							<button class="b" value="5">5</button>
+							<button class="b" value="6">6</button>
+							<button class="b gold" value="-">-</button>
+							<button class="b" value="1">1</button>
+							<button class="b" value="2">2</button>
+							<button class="b" value="3">3</button>
+							<button class="b gold" value="+">+</button>
+							<button class="b" id="dott">.</button>
+							<button class="b" value="0">0</button>
+							<button class="b" id="cancel">AC</button>
+							<button class="b gold" id="equals">=</button>
+							<button class="b gold" id="sqrt"  value="√">Sqrt</button>
+							<button class="b" id="ce">CE</button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</div>
+<footer>
+		<div class="container">
+			Copyright @ZZDIGITAL STUDIOS <br> <br>
+			Created for everyone by Moses Chukwudi Nwigberi.
+		<ul>
+			<li><a href="http://twitter.com/NMoses_"><i class='fab fa-twitter' style='font-size:30px;color:white;'></i></a></li>
+			<li><a href="http://instagram.com/NC_Moses"><i class='fab fa-instagram' style='font-size:30px'></i></a></li>
+			<li><a href="http://instagram.com/NC_Moses"><i class='fab fa-facebook' style='font-size:30px'></i></a></li>
+			<li><a href="https://wa.me/+2348075489362"><i class='fab fa-whatsapp' style='font-size:30px'></i></a></li>
+		</ul>
+		</div>
+</footer>
+	<script type="text/javascript" src="Assets/JS/calculatorLogic.js">
+	</script>
+</body>
+
+
+</html>
+
+
+</html>
